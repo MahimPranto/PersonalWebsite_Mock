@@ -45,25 +45,38 @@ h2{
 .latest-work{
     background-image: url(images/latest-work-bg.png);
     padding-left: 2%;
-    margin-left: 2%
+    /* margin-left: 2% */
 }
 .latest-work h1{
     text-align: center;
 }
-.latest-work img{
+
+.one-third-width{
+    float: left;
     width: 30%;
-    padding-right: 2%;
+}
+.one-third-width img{
+    width: 100%;
 }
 .footer{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
 }
-.footer h1,h2,h3,h4{
+.footer h1,h2,h3,h4,p{
     text-align: center;
 }
-.box{
-    padding-left: 40%;
-}
+
 footer p{
     text-align: center;
+}
+.one-third-width2{
+    float: left;
+    width: 25%;
+}
+.middle{
+    background-image: linear-gradient(lightpink, rgb(212, 16, 49));
+    padding: 10px 10px;
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
 }

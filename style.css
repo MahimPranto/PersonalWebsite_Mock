@@ -69,10 +69,7 @@ h2{
 footer p{
     text-align: center;
 }
-.one-third-width2{
-    float: left;
-    width: 25%;
-}
+
 .middle{
     background-image: linear-gradient(lightpink, rgb(212, 16, 49));
     padding: 10px 10px;
